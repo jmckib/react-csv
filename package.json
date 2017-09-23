@@ -7,6 +7,7 @@
     "cdn": "node cdn/generator.js",
     "build": "babel -d lib/ src/ --no-comments",
     "prepublish": "npm run build",
+    "preinstall": "npm run build",
     "pretest": "npm run build",
     "test2": "node_modules/.bin/_mocha test",
     "test": "node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- test/*.js",
