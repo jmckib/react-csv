@@ -8,7 +8,7 @@
 
 # Overview :
 
-NOTE: This is a fork of abdennour/react-csv meant to fix a [single bug that puts an unprintable char at the beginning of every csv](https://github.com/abdennour/react-csv/issues/22).
+NOTE: This is a fork of https://github.com/abdennour/react-csv meant to fix a [single bug that puts an unprintable char at the beginning of every csv](https://github.com/abdennour/react-csv/issues/22).
 
 Generate CSV document  according to given data.
 
